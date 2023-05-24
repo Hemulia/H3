@@ -1,0 +1,33 @@
+{% extends "tools/base.html" %}
+
+{% block "content" %}
+    <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <h1 style="font-family: 'Arial', sans-serif; color: #333; font-size: 32px; margin-bottom: 20px;">Garage Tools</h1>
+        <h3 style="font-family: 'Arial', sans-serif; color: #777; font-size: 18px ;font-weight: bold; margin-bottom: 30px;">Here are all the tools in my garage</h3>
+
+        {% for object in object_list %}
+            <p style="margin-bottom: 10px;">
+                <a style="text-decoration: none; color: #555; font-weight: bold; font-size: 18px;" href="/tool/{{ object.pk }}">{{ object }}</a>
+            </p>
+        {% endfor %}
+
+        <p>
+            <a style="
+                text-decoration: none;
+                font-weight: bold;
+                color:white;
+                background-color: #ff5f5f;
+                border-radius: 20px;
+                padding: 8px 15px;
+                font-family: 'Arial', sans-serif;
+                font-size: 14px;
+                text-transform: uppercase;"
+               href="/tool/new">
+                Add a tool
+            </a>
+        </p>
+    </div>
+{% endblock "content" %}
+
+
+
