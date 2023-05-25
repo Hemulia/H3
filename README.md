@@ -1,5 +1,5 @@
 # Garage
-## Etusivulla voi mähdä kaikki luodut työkalut ja niiden brändit.
+## Etusivulla voi nähdä kaikki luodut työkalut ja niiden brändit.
 ## Työkalun nimeä klikkaamalla myös pääsee muokkaamaan työkalun tiedot ja myös poistamaan työkalun!
 ## Add Tool-painikkeesta myös pääsee lisäämään uuden työkalun ja tämän näkee myös hieman alempana sivulla.
 ![gar](./Garage.jpg)
